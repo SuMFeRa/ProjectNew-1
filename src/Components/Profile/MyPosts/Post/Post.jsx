@@ -2,11 +2,11 @@ import React from "react";
 import s from "./Post.module.css";
 
 
-const Post = () => {
+const Post = (props) => {
     return (
         <div className={s.item}>
             <img src="https://img.freepik.com/premium-vector/pro-gamer-avatar-logo_71220-49.jpg?w=2000" alt=""/>
-            Post 1
+            {props.message}
             <div>
                 <span>Like</span>
             </div>
