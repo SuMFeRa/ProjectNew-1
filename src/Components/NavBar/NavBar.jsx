@@ -4,7 +4,9 @@ import {NavLink} from "react-router-dom";
 
 const setActive = ({ isActive }) => isActive ? s.active : '';
 
-const NavBar = () => {
+const NavBar = (props) => {
+
+
     return (
         <nav className={s.nav}>
             <div className={s.item}>
