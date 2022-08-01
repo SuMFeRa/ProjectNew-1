@@ -3,16 +3,24 @@
     background: #2198c0;
     text-align: left;
     font-size: 20px;
+    max-height: 100%;
 
 
 }
 
-.item {
+.item  {
+    margin: 10px 50px;
+}
+
+.item a {
+    text-decoration: none;
     color: white;
-    margin-left: 40px;
-    margin-bottom: 10px;
 }
 
-.item.active {
+.item a.active {
+    color: black;
+}
+
+.item a:hover {
     color: black;
 }
